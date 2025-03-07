@@ -34,4 +34,47 @@ ul {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
+  border: 2px dashed black;
+}
+
+/* HEADER */
+
+header {
+  background-color: aqua;
+}
+
+.main-header {
+  padding: 10px;
+}
+
+header .container {
+  display: flex;
+  background-color: orange;
+  padding: 5px;
+}
+
+.main-header div {
+  flex-grow: 1;
+  min-height: 2px;
+}
+
+.container .link {
+  text-align: center;
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+}
+
+.container .login {
+  text-align: end;
+}
+
+.second-header {
+  padding: 40px 0;
+  background-color: blue;
+}
+
+.container.container-small {
+  max-width: 900px;
+  height: 400px;
+  background-color: purple;
 }
