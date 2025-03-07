@@ -97,8 +97,7 @@ header .container {
 }
 
 .div-right {
-  width: 40%;
-  height: 400px;
+  flex-grow: 1;
   border-left: 2px dashed black;
   border-right: 2px dashed black;
   background-color: pink;
@@ -109,11 +108,44 @@ header .container {
 }
 
 .container.container-big {
-  max-width: 900px;
   height: 700px;
   background-color: green;
 }
 
 section:nth-of-type(even) {
   background-color: lightgrey;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(43, 43, 43);
+}
+
+.top-footer {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid white;
+}
+
+.top-footer .container {
+  height: 400px;
+}
+
+.div-footer-left {
+  width: 30%;
+  border-right: 2px dashed black;
+  background-color: pink;
+}
+
+.div-footer-right {
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  background-color: aqua;
+}
+
+.div-footer-right div {
+  border: 2px dashed white;
+  flex-grow: 1;
 }
