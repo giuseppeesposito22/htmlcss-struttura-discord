@@ -34,7 +34,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 0 0px;
-  border: 2px dashed black;
+
   display: flex;
 }
 
@@ -60,8 +60,6 @@ header .container {
 
 .container .link {
   text-align: center;
-  border-left: 2px dashed black;
-  border-right: 2px dashed black;
 }
 
 .container .login {
@@ -88,15 +86,13 @@ header .container {
 .element-left {
   width: 60%;
   height: 400px;
-  border-right: 2px dashed black;
-  border-left: 2px dashed black;
+
   background-color: #1e90ff;
 }
 
 .element-right {
   flex-grow: 1;
-  border-left: 2px dashed black;
-  border-right: 2px dashed black;
+
   background-color: #ffc0ca;
 }
 
@@ -119,10 +115,17 @@ footer {
   background-color: #23272a;
 }
 
-.top-footer {
+/* .top-footer {
   padding-top: 10px;
   padding-bottom: 40px;
   border-bottom: 2px solid white;
+} */
+
+.container.margin {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
 }
 
 .top-footer .container {
@@ -131,7 +134,7 @@ footer {
 
 .element-footer-left {
   width: 30%;
-  border-right: 2px dashed black;
+
   background-color: #f08180;
 }
 
@@ -160,7 +163,7 @@ footer {
 .logo-footer,
 .button-footer {
   align-content: center;
-  border: 2px dashed black;
+
   padding: 5px;
   background-color: #feb6c1;
 }
